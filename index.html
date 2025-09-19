@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Магазин бытовой техники</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f7f7f7; }
+    .container { max-width: 1100px; margin: auto; padding: 20px; }
+    h1 { text-align: center; color: #333; margin-bottom: 30px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .card { background: #fff; border-radius: 12px; padding: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: 0.3s; }
+    .card:hover { transform: translateY(-5px); }
+    .card img { max-width: 100%; border-radius: 10px; }
+    .title { font-size: 18px; font-weight: bold; margin: 10px 0; }
+    .price { font-size: 20px; color: #e60000; margin-bottom: 15px; }
+    .btn {
+      display: block;
+      text-align: center;
+      background: #00a859;
+      color: white;
+      text-decoration: none;
+      padding: 12px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .btn:hover { background: #008f4d; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🔥 Популярные товары со скидкой</h1>
+    <div class="grid">
+
+      <!-- Товар 1 -->
+      <div class="card">
+        <img src="https://resources.cdn-kaspi.kz/img/m/p/h60/h95/63735633764318.jpg?format=gallery-medium" alt="Холодильник">
+        <div class="title">Холодильник Samsung RT38K</div>
+        <div class="price">210 000 ₸</div>
+        <a href="https://kaspi.kz/shop/p/samsung-rt38k5030s8-123456/" target="_blank" class="btn">Купить через Kaspi</a>
+      </div>
+
+      <!-- Товар 2 -->
+      <div class="card">
+        <img src="https://resources.cdn-kaspi.kz/img/m/p/h12/hf5/64434851524638.jpg?format=gallery-medium" alt="Чайник">
+        <div class="title">Электрочайник Philips HD9350</div>
+        <div class="price">14 900 ₸</div>
+        <a href="https://kaspi.kz/shop/p/philips-hd9350-234567/" target="_blank" class="btn">Купить через Kaspi</a>
+      </div>
+
+      <!-- Товар 3 -->
+      <div class="card">
+        <img src="https://resources.cdn-kaspi.kz/img/m/p/h1f/h3a/63735633764317.jpg?format=gallery-medium" alt="Миксер">
+        <div class="title">Миксер Bosch MFQ4030</div>
+        <div class="price">19 500 ₸</div>
+        <a href="https://kaspi.kz/shop/p/bosch-mfq4030-345678/" target="_blank" class="btn">Купить через Kaspi</a>
+      </div>
+
+      <!-- Товар 4 -->
+      <div class="card">
+        <img src="https://resources.cdn-kaspi.kz/img/m/p/h44/h29/63891293748254.jpg?format=gallery-medium" alt="Кастрюли">
+        <div class="title">Набор кастрюль Tefal</div>
+        <div class="price">32 000 ₸</div>
+        <a href="https://kaspi.kz/shop/p/tefal-cookware-456789/" target="_blank" class="btn">Купить через Kaspi</a>
+      </div>
+
+      <!-- Товар 5 -->
+      <div class="card">
+        <img src="https://resources.cdn-kaspi.kz/img/m/p/h88/h32/63891293748255.jpg?format=gallery-medium" alt="Утюг">
+        <div class="title">Утюг Braun SI9188</div>
+        <div class="price">21 000 ₸</div>
+        <a href="https://kaspi.kz/shop/p/braun-si9188-567890/" target="_blank" class="btn">Купить через Kaspi</a>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
